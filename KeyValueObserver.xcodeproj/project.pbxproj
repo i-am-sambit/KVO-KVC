@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDD834701F722C98003D992E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD8346F1F722C98003D992E /* main.m */; };
+		CDD834731F722C99003D992E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD834721F722C99003D992E /* AppDelegate.m */; };
+		CDD834761F722C99003D992E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD834751F722C99003D992E /* ViewController.m */; };
+		CDD834791F722C99003D992E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD834771F722C99003D992E /* Main.storyboard */; };
+		CDD8347B1F722C99003D992E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD8347A1F722C99003D992E /* Assets.xcassets */; };
+		CDD8347E1F722C99003D992E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD8347C1F722C99003D992E /* LaunchScreen.storyboard */; };
+		CDD834891F722C9A003D992E /* KeyValueObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD834881F722C9A003D992E /* KeyValueObserverTests.m */; };
+		CDD834941F722C9A003D992E /* KeyValueObserverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD834931F722C9A003D992E /* KeyValueObserverUITests.m */; };
+		CDD834A31F722E13003D992E /* FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD834A21F722E13003D992E /* FirstClass.m */; };
+		CDD834A61F722E2A003D992E /* SecondClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD834A51F722E2A003D992E /* SecondClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDD834851F722C9A003D992E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD834631F722C96003D992E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD8346A1F722C97003D992E;
+			remoteInfo = KeyValueObserver;
+		};
+		CDD834901F722C9A003D992E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD834631F722C96003D992E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD8346A1F722C97003D992E;
+			remoteInfo = KeyValueObserver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDD8346B1F722C97003D992E /* KeyValueObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyValueObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD8346F1F722C98003D992E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDD834711F722C99003D992E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDD834721F722C99003D992E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDD834741F722C99003D992E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDD834751F722C99003D992E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDD834781F722C99003D992E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDD8347A1F722C99003D992E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDD8347D1F722C99003D992E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDD8347F1F722C99003D992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD834841F722C9A003D992E /* KeyValueObserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyValueObserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD834881F722C9A003D992E /* KeyValueObserverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyValueObserverTests.m; sourceTree = "<group>"; };
+		CDD8348A1F722C9A003D992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD8348F1F722C9A003D992E /* KeyValueObserverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyValueObserverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD834931F722C9A003D992E /* KeyValueObserverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyValueObserverUITests.m; sourceTree = "<group>"; };
+		CDD834951F722C9A003D992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD834A11F722E13003D992E /* FirstClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstClass.h; sourceTree = "<group>"; };
+		CDD834A21F722E13003D992E /* FirstClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstClass.m; sourceTree = "<group>"; };
+		CDD834A41F722E2A003D992E /* SecondClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondClass.h; sourceTree = "<group>"; };
+		CDD834A51F722E2A003D992E /* SecondClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD834681F722C97003D992E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD834811F722C9A003D992E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8348C1F722C9A003D992E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDD834621F722C96003D992E = {
+			isa = PBXGroup;
+			children = (
+				CDD8346D1F722C97003D992E /* KeyValueObserver */,
+				CDD834871F722C9A003D992E /* KeyValueObserverTests */,
+				CDD834921F722C9A003D992E /* KeyValueObserverUITests */,
+				CDD8346C1F722C97003D992E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDD8346C1F722C97003D992E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8346B1F722C97003D992E /* KeyValueObserver.app */,
+				CDD834841F722C9A003D992E /* KeyValueObserverTests.xctest */,
+				CDD8348F1F722C9A003D992E /* KeyValueObserverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD8346D1F722C97003D992E /* KeyValueObserver */ = {
+			isa = PBXGroup;
+			children = (
+				CDD834A11F722E13003D992E /* FirstClass.h */,
+				CDD834A21F722E13003D992E /* FirstClass.m */,
+				CDD834A41F722E2A003D992E /* SecondClass.h */,
+				CDD834A51F722E2A003D992E /* SecondClass.m */,
+				CDD834711F722C99003D992E /* AppDelegate.h */,
+				CDD834721F722C99003D992E /* AppDelegate.m */,
+				CDD834741F722C99003D992E /* ViewController.h */,
+				CDD834751F722C99003D992E /* ViewController.m */,
+				CDD834771F722C99003D992E /* Main.storyboard */,
+				CDD8347A1F722C99003D992E /* Assets.xcassets */,
+				CDD8347C1F722C99003D992E /* LaunchScreen.storyboard */,
+				CDD8347F1F722C99003D992E /* Info.plist */,
+				CDD8346E1F722C98003D992E /* Supporting Files */,
+			);
+			path = KeyValueObserver;
+			sourceTree = "<group>";
+		};
+		CDD8346E1F722C98003D992E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDD8346F1F722C98003D992E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDD834871F722C9A003D992E /* KeyValueObserverTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDD834881F722C9A003D992E /* KeyValueObserverTests.m */,
+				CDD8348A1F722C9A003D992E /* Info.plist */,
+			);
+			path = KeyValueObserverTests;
+			sourceTree = "<group>";
+		};
+		CDD834921F722C9A003D992E /* KeyValueObserverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDD834931F722C9A003D992E /* KeyValueObserverUITests.m */,
+				CDD834951F722C9A003D992E /* Info.plist */,
+			);
+			path = KeyValueObserverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDD8346A1F722C97003D992E /* KeyValueObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD834981F722C9A003D992E /* Build configuration list for PBXNativeTarget "KeyValueObserver" */;
+			buildPhases = (
+				CDD834671F722C97003D992E /* Sources */,
+				CDD834681F722C97003D992E /* Frameworks */,
+				CDD834691F722C97003D992E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyValueObserver;
+			productName = KeyValueObserver;
+			productReference = CDD8346B1F722C97003D992E /* KeyValueObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDD834831F722C9A003D992E /* KeyValueObserverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD8349B1F722C9A003D992E /* Build configuration list for PBXNativeTarget "KeyValueObserverTests" */;
+			buildPhases = (
+				CDD834801F722C9A003D992E /* Sources */,
+				CDD834811F722C9A003D992E /* Frameworks */,
+				CDD834821F722C9A003D992E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD834861F722C9A003D992E /* PBXTargetDependency */,
+			);
+			name = KeyValueObserverTests;
+			productName = KeyValueObserverTests;
+			productReference = CDD834841F722C9A003D992E /* KeyValueObserverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDD8348E1F722C9A003D992E /* KeyValueObserverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD8349E1F722C9A003D992E /* Build configuration list for PBXNativeTarget "KeyValueObserverUITests" */;
+			buildPhases = (
+				CDD8348B1F722C9A003D992E /* Sources */,
+				CDD8348C1F722C9A003D992E /* Frameworks */,
+				CDD8348D1F722C9A003D992E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD834911F722C9A003D992E /* PBXTargetDependency */,
+			);
+			name = KeyValueObserverUITests;
+			productName = KeyValueObserverUITests;
+			productReference = CDD8348F1F722C9A003D992E /* KeyValueObserverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD834631F722C96003D992E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Globussoft;
+				TargetAttributes = {
+					CDD8346A1F722C97003D992E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LW9EP5U6JZ;
+						ProvisioningStyle = Automatic;
+					};
+					CDD834831F722C9A003D992E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LW9EP5U6JZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDD8346A1F722C97003D992E;
+					};
+					CDD8348E1F722C9A003D992E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LW9EP5U6JZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDD8346A1F722C97003D992E;
+					};
+				};
+			};
+			buildConfigurationList = CDD834661F722C96003D992E /* Build configuration list for PBXProject "KeyValueObserver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDD834621F722C96003D992E;
+			productRefGroup = CDD8346C1F722C97003D992E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDD8346A1F722C97003D992E /* KeyValueObserver */,
+				CDD834831F722C9A003D992E /* KeyValueObserverTests */,
+				CDD8348E1F722C9A003D992E /* KeyValueObserverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDD834691F722C97003D992E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD8347E1F722C99003D992E /* LaunchScreen.storyboard in Resources */,
+				CDD8347B1F722C99003D992E /* Assets.xcassets in Resources */,
+				CDD834791F722C99003D992E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD834821F722C9A003D992E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8348D1F722C9A003D992E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDD834671F722C97003D992E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD834761F722C99003D992E /* ViewController.m in Sources */,
+				CDD834A61F722E2A003D992E /* SecondClass.m in Sources */,
+				CDD834A31F722E13003D992E /* FirstClass.m in Sources */,
+				CDD834731F722C99003D992E /* AppDelegate.m in Sources */,
+				CDD834701F722C98003D992E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD834801F722C9A003D992E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD834891F722C9A003D992E /* KeyValueObserverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8348B1F722C9A003D992E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD834941F722C9A003D992E /* KeyValueObserverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDD834861F722C9A003D992E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDD8346A1F722C97003D992E /* KeyValueObserver */;
+			targetProxy = CDD834851F722C9A003D992E /* PBXContainerItemProxy */;
+		};
+		CDD834911F722C9A003D992E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDD8346A1F722C97003D992E /* KeyValueObserver */;
+			targetProxy = CDD834901F722C9A003D992E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDD834771F722C99003D992E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD834781F722C99003D992E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDD8347C1F722C99003D992E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD8347D1F722C99003D992E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDD834961F722C9A003D992E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDD834971F722C9A003D992E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDD834991F722C9A003D992E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LW9EP5U6JZ;
+				INFOPLIST_FILE = KeyValueObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globussoft.com.KeyValueObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDD8349A1F722C9A003D992E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LW9EP5U6JZ;
+				INFOPLIST_FILE = KeyValueObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globussoft.com.KeyValueObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDD8349C1F722C9A003D992E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LW9EP5U6JZ;
+				INFOPLIST_FILE = KeyValueObserverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globussoft.com.KeyValueObserverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyValueObserver.app/KeyValueObserver";
+			};
+			name = Debug;
+		};
+		CDD8349D1F722C9A003D992E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LW9EP5U6JZ;
+				INFOPLIST_FILE = KeyValueObserverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globussoft.com.KeyValueObserverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyValueObserver.app/KeyValueObserver";
+			};
+			name = Release;
+		};
+		CDD8349F1F722C9A003D992E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LW9EP5U6JZ;
+				INFOPLIST_FILE = KeyValueObserverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globussoft.com.KeyValueObserverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyValueObserver;
+			};
+			name = Debug;
+		};
+		CDD834A01F722C9A003D992E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LW9EP5U6JZ;
+				INFOPLIST_FILE = KeyValueObserverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globussoft.com.KeyValueObserverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyValueObserver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDD834661F722C96003D992E /* Build configuration list for PBXProject "KeyValueObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD834961F722C9A003D992E /* Debug */,
+				CDD834971F722C9A003D992E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD834981F722C9A003D992E /* Build configuration list for PBXNativeTarget "KeyValueObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD834991F722C9A003D992E /* Debug */,
+				CDD8349A1F722C9A003D992E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDD8349B1F722C9A003D992E /* Build configuration list for PBXNativeTarget "KeyValueObserverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD8349C1F722C9A003D992E /* Debug */,
+				CDD8349D1F722C9A003D992E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDD8349E1F722C9A003D992E /* Build configuration list for PBXNativeTarget "KeyValueObserverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD8349F1F722C9A003D992E /* Debug */,
+				CDD834A01F722C9A003D992E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD834631F722C96003D992E /* Project object */;
+}
